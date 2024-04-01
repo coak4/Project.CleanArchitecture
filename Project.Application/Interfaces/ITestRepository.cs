@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.Application
+namespace Project.Application.Interfaces
 {
-    public interface ITestService
+    public interface ITestRepository
     {
-        //This interface is use for Bussiness Rule / USE CASE
         Domain.Test GetData();
     }
 }

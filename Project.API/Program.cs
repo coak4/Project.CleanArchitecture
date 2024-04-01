@@ -1,4 +1,5 @@
-using Project.Application;
+using Project.Application.Interfaces;
+using Project.Application.Services;
 using Project.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);

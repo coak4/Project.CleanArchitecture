@@ -1,4 +1,6 @@
-﻿namespace Project.Application
+﻿using Project.Application.Interfaces;
+
+namespace Project.Application.Services
 {
     public class TestService : ITestService
     {
@@ -11,7 +13,7 @@
 
         Domain.Test ITestService.GetData()
         {
-            return this.testRepository.GetData();
+            return testRepository.GetData();
         }
     }
 }

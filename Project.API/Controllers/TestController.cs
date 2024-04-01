@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Project.Application;
+using Project.Application.Interfaces;
 
 namespace Project.API.Controllers
 {

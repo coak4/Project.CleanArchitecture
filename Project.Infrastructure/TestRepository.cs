@@ -1,4 +1,4 @@
-﻿using Project.Application;
+﻿using Project.Application.Interfaces;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Project.Infrastructure
